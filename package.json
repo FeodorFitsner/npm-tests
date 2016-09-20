@@ -52,7 +52,6 @@
   },
   "scripts": {
     "start": "concurrently \"au run --watch\" \"npm run chatle\"",
-    "postinstall": "typings install && gulp",
     "chatle": "dotnet run -p ../chatle -- ../chatle",
     "gulp": "gulp"
   }
